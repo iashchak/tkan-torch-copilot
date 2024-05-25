@@ -1,0 +1,19 @@
+
+[tool.poetry]
+name = "pytorch-tkan"
+version = "0.1.0"
+description = "A PyTorch implementation of the Temporal Kolmogorov-Arnold Network (TKAN) with custom spline activation functions."
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+torch = "^1.8.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+flake8 = "^3.9.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
